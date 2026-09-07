@@ -1,6 +1,6 @@
 ﻿namespace ResEjercicios._05_Herencia_Sobrescritura;
 
-public class Perro
+public class Perro : Mamifero
 {
-
+    public override void HacerSonido() => Console.WriteLine("El perro realiza sonido de ladrido.");
 }
